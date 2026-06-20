@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Faqous | Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;600;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Cairo', sans-serif; background: #0a0a0a; color: #fff; line-height: 1.6; }
+        .container { max-width: 1200px; margin: auto; padding: 0 20px; }
+        header { padding: 20px 0; border-bottom: 1px solid #222; }
+        nav { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 24px; font-weight: 900; color: #00d4ff; }
+        .hero { height: 90vh; display: flex; align-items: center; }
+        .hero h1 { font-size: 64px; font-weight: 900; background: linear-gradient(45deg, #00d4ff, #7b2ff7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { font-size: 20px; color: #aaa; margin: 20px 0; max-width: 600px; }
+        .btn { display: inline-block; background: #00d4ff; color: #000; padding: 15px 35px; border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 20px; }
+        .section { padding: 100px 0; }
+        .section h2 { font-size: 42px; text-align: center; margin-bottom: 60px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: #111; padding: 40px; border-radius: 12px; border: 1px solid #222; }
+        .card h3 { color: #00d4ff; margin-bottom: 15px; }
+        footer { text-align: center; padding: 40px 0; border-top: 1px solid #222; color: #666; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Mohamed.dev</div>
+                <a href="https://wa.me/201032465607" class="btn">تواصل معي</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>ببني مواقع وتطبيقات بتجيب فلوس</h1>
+            <p>أنا محمد فاقوس، مطور Full Stack من الشرقية. متخصص في تحويل أفكارك لمشاريع تقنية ناجحة وسريعة. خبرة في React, Node.js, وتصميم واجهات UI/UX احترافية.</p>
+            <a href="https://wa.me/201032465607" class="btn">احجز استشارة مجانية</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>خدماتي</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>تصميم مواقع الشركات</h3>
+                    <p>مواقع احترافية سريعة ومتجاوبة مع كل الأجهزة. بتركز على تحويل الزائر لعميل.</p>
+                </div>
+                <div class="card">
+                    <h3>متاجر إلكترونية</h3>
+                    <p>بناء متجرك على Shopify أو WooCommerce مع بوابات دفع وربط شركات الشحن في مصر.</p>
+                </div>
+                <div class="card">
+                    <h3>تطبيقات ويب SaaS</h3>
+                    <p>تحويل فكرتك لمنصة SaaS كاملة مع لوحة تحكم، اشتراكات، و APIs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Mohamed Faqous. كل الحقوق محفوظة.</p>
+            <p>📞 واتساب: 01032465607 | 📍 فاقوس، الشرقية</p>
+        </div>
+    </footer>
+</body>
+</html>
